@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  
+}
+#id{
+  display: none;
+}
+.mask{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  z-index: 999;
+}
+.mask .alert{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.mask .alert button{
+  margin: 15px 0 0 35px;
+}
