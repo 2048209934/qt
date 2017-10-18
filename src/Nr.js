@@ -10,7 +10,8 @@ class Nr extends Component {
   constructor(){
     super()
     this.state={
-      da:{}
+        da:{},
+        a:1
     }
   }
   componentDidMount(){
